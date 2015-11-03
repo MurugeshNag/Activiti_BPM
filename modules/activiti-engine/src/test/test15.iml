@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="" />
+        <datasource-mapping />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/resources/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/resources/org/activiti/engine/test/db/connection-pool.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/engine/test/db/IdGeneratorDataSourceTest.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/engine/test/bpmn/usertask/activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/examples/bpmn/executionlistener/custom.flow.parse.handler.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/el/activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/cfg/identity/customIdentitySession-activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/cfg/custom-mybatis-mappers-activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/cfg/custom-mybatis-xml-mappers-activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/jpa/activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/event/activiti-eventlistener.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/event/activiti-typed-eventlistener.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/rules/rules.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/deploy/deployment.cache.limit.test.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/deploy/custom.deployment.cache.test.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/history/nohistory.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/history/fullhistory.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/parsing/encoding.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/parsing/bpmn.parse.listener.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/parsing/custom.listenerfactory.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/parsing/custom.default.parse.handler.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/parsing/custom.activitybehaviorfactory.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/scripting/activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/idgenerator/uuidgenerator.test.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/initialization/notables.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/org/activiti/standalone/initialization/nodbconnection.activiti.cfg.xml</file>
+          <file>file://$MODULE_DIR$/resources/activiti.cfg.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="main12" />
+    <orderEntry type="module" module-name="main25" />
+    <orderEntry type="module" module-name="main18" />
+    <orderEntry type="module" module-name="main21" />
+    <orderEntry type="module" module-name="main17" />
+  </component>
+</module>
